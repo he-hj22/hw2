@@ -1,0 +1,12 @@
+[Config]
+- model=GRU
+- epochs=10
+- batch_size=32
+- lr=0.001
+- device=cuda
+- hidden_dim=128
+- seed=42
+
+[Result]
+ - accuracy=84.82% 
+ - f_score=85.26%
